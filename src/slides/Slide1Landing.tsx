@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight, Sparkles, Shield, Users, Layers } from 'lucide-react';
 import { usePresentation } from '../context/PresentationContext';
-import missionMavericksLogo from '../assets/mission-mavericks-logo.png';
+import missionMavericksLogo from '../Assets/mission-mavericks-logo.png';
 
 export const Slide1Landing: React.FC = () => {
   const { nextSlide } = usePresentation();
