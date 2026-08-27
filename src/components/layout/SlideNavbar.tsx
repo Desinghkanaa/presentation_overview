@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { usePresentation } from '../../context/PresentationContext';
 import { ExternalLink } from 'lucide-react';
 import { links } from '../../data/links';
-import missionMavericksLogo from '../../assets/mission-mavericks-logo.png';
+import missionMavericksLogo from '../../Assets/mission-mavericks-logo.png';
 
 export const SlideNavbar: React.FC = () => {
   const { goToSlide, currentSlide } = usePresentation();
