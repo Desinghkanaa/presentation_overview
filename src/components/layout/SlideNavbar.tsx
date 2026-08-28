@@ -22,9 +22,9 @@ export const SlideNavbar: React.FC = () => {
 
   return (
     <motion.header
-      initial={{ y: -80, opacity: 0 }}
+      initial={{ y: -15, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+      transition={{ duration: 0.2, ease: 'easeOut' }}
       className={`fixed top-0 left-0 right-0 h-16 md:h-20 z-40 flex items-center justify-between px-6 md:px-12 transition-colors duration-300 ${
         isHomeSlide
           ? 'bg-black/25 backdrop-blur-md border-b border-white/10 text-white'
